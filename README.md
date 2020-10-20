@@ -9,11 +9,13 @@ Setup
 * Install ``python`` -- This repo is tested with ``3.6``
 
 * Install ``PyTorch version >= 1.0.0, torchvision >= 0.2.1``
+
+* Download Inception-v3 pretrained model from ``https://download.pytorch.org/models/inception_v3_google-1a9a5a14.pth`` and move it to ``./pretrain/``
  
 
 Adversarial Attack
 ------------------
-run 
+run on ImageNet dataset
 	
 	bash nips_gd.sh        for white-box attack
 	bash nips_black_gd.sh  for black-box attack
