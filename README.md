@@ -27,6 +27,6 @@ paramaters
 	--phase phase of the current test
 	--max_epsilon max of the adversarial perturbation [0,255]
 	--iter max iteration number for attack
-	--confidence confidence factor for control the black-box strength ()
+	--confidence confidence factor for control the black-box strength (do not work for the white-box setting)
   
 
