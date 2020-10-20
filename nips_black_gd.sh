@@ -6,7 +6,7 @@ PHASE=BLACK
 now=$(date +"%Y%m%d_%H%M%S")
 NAME=GreedyFool_Black_E_${EPS}-Iter_${Iter}_$now
 CUDA_VISIBLE_DEVICES=0 python -u nips_black_gd.py \
-    --dataroot /mnt/blob/testset/black_test \
+    --dataroot path/to/imgs/ \
     --name ${NAME} \
     --phase ${PHASE} \
     --max_epsilon ${EPS} \
