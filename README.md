@@ -8,7 +8,7 @@ Setup
 
 * Install ``python`` -- This repo is tested with ``3.6``
 
-* Install PyTorch version >= 1.0.0, torchvision >= 0.2.1
+* Install ``PyTorch version >= 1.0.0, torchvision >= 0.2.1``
  
 
 Adversarial Attack
