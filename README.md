@@ -13,18 +13,18 @@ Setup
 
 Adversarial Attack
 ------------------
-For white-box attack, run 
+run 
+	
+	bash nips_gd.sh        for white-box attack
+	bash nips_black_gd.sh  for black-box attack
+	
+paramaters 
 
-::
-
-	bash nips_gd.sh 
 	--dataroot input image data with png format
 	--name name of the current test
 	--phase phase of the current test
 	--max_epsilon max of the adversarial perturbation [0,255]
 	--iter max iteration number for attack
+	--confidence confidence factor for control the black-box strength ()
   
-
-
-
 
